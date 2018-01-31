@@ -1,4 +1,5 @@
 require "bundler/setup"
+require 'active_support/all'
 require "name_helper"
 
 RSpec.configure do |config|
