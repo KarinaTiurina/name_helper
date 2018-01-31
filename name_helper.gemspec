@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Karina Tiurina"]
   spec.email         = ["rktiurina@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Convert controller class name to model name and table name}
+  spec.description   = %q{Convert controller class name to model name and table name}
+  spec.homepage      = "https://github.com/KarinaTiurina/name_helper"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

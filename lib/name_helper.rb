@@ -1,5 +1,7 @@
 require "name_helper/version"
 
 module NameHelper
-  # Your code goes here...
+  def self.tableize(controller_class_name)
+    controller_class_name.to_s.gsub("sController", '').tableize
+  end
 end
